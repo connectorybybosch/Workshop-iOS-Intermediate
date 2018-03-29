@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D1F4F0F206D285E00F9BE07 /* CardRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1F4F0E206D285E00F9BE07 /* CardRepresentable.swift */; };
+		5D1F4F11206D286B00F9BE07 /* MeasureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1F4F10206D286B00F9BE07 /* MeasureViewModel.swift */; };
 		5D2D1A27206A91DF0090C521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2D1A26206A91DF0090C521 /* AppDelegate.swift */; };
 		5D2D1A2E206A91DF0090C521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2D1A2D206A91DF0090C521 /* Assets.xcassets */; };
 		5D2D1A31206A91DF0090C521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2D1A2F206A91DF0090C521 /* LaunchScreen.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D1F4F0E206D285E00F9BE07 /* CardRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepresentable.swift; sourceTree = "<group>"; };
+		5D1F4F10206D286B00F9BE07 /* MeasureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureViewModel.swift; sourceTree = "<group>"; };
 		5D2D1A23206A91DF0090C521 /* WorkshopiOSVsAndroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkshopiOSVsAndroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2D1A26206A91DF0090C521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D2D1A2D206A91DF0090C521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D1F4F0C206D283600F9BE07 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5D1F4F0E206D285E00F9BE07 /* CardRepresentable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5D1F4F0D206D284200F9BE07 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D1F4F10206D286B00F9BE07 /* MeasureViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		5D2D1A1A206A91DF0090C521 = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +85,10 @@
 				5D2D1A26206A91DF0090C521 /* AppDelegate.swift */,
 				5D2D1A3F206A923D0090C521 /* ApiService */,
 				5D2D1A39206A923D0090C521 /* Helpers */,
+				5D1F4F0C206D283600F9BE07 /* Protocols */,
 				5D2D1A3D206A923D0090C521 /* Model */,
-				5D2D1A41206A923D0090C521 /* Protocols */,
 				5D2D1A43206A923D0090C521 /* View Controllers */,
-				5D2D1A3B206A923D0090C521 /* View Models */,
+				5D1F4F0D206D284200F9BE07 /* View Models */,
 				5D2D1A45206A923E0090C521 /* Views */,
 				5D2D1A38206A92290090C521 /* Resources */,
 			);
@@ -93,13 +113,6 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		5D2D1A3B206A923D0090C521 /* View Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "View Models";
-			sourceTree = "<group>";
-		};
 		5D2D1A3D206A923D0090C521 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,13 +127,6 @@
 				5D2D1A40206A923D0090C521 /* ApiService.swift */,
 			);
 			path = ApiService;
-			sourceTree = "<group>";
-		};
-		5D2D1A41206A923D0090C521 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		5D2D1A43206A923D0090C521 /* View Controllers */ = {
@@ -215,9 +221,11 @@
 				5D2D1A27206A91DF0090C521 /* AppDelegate.swift in Sources */,
 				5D2D1A4B206A923E0090C521 /* ApiService.swift in Sources */,
 				5D2D1A4D206A923E0090C521 /* XDKDataController.swift in Sources */,
+				5D1F4F0F206D285E00F9BE07 /* CardRepresentable.swift in Sources */,
 				5D2D1A48206A923E0090C521 /* Extensions.swift in Sources */,
 				5D2D1A4A206A923E0090C521 /* Measure.swift in Sources */,
 				5D2D1A4E206A923E0090C521 /* MeasureCell.swift in Sources */,
+				5D1F4F11206D286B00F9BE07 /* MeasureViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
